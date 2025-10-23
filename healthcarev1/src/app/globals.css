@@ -3,7 +3,10 @@
 :root {
   --background: #FBFBFB;
   --foreground: #282828;
-  --btnbg: #b1e3f5;
+  --gredient: #E8F9FF;
+  --navbtnbgbase: #81d2f0;
+  --navbtnbghover: #1aaadf;
+
 }
 
 
@@ -23,6 +26,8 @@
 
   --btn-bgcolor: var(--btnbg);
   --btn-arrowcolor: var(--foreground);
+  --btn-bgcolorhover: var(--navbtnbghover);
+  --btn-bgcolorbase: var(--navbtnbgbase);
 
 
 }
@@ -63,7 +68,12 @@ html {
   transform: scaleX(1);
 }
 
-.btn-bgcolor {
-  background-color: var(--btn-bgcolor);
+.btn-color {
+  background-color: var(--btn-bgcolorbase);
+  color: var(--btn-arrowcolor);
+}
+
+.btn-colorhover {
+  background-color: var(--btn-bgcolorhover);
   color: var(--btn-arrowcolor);
 }
