@@ -28,6 +28,7 @@
   --btn-arrowcolor: var(--foreground);
   --btn-bgcolorhover: var(--navbtnbghover);
   --btn-bgcolorbase: var(--navbtnbgbase);
+  
 
 
 }
@@ -57,7 +58,7 @@ html {
   bottom: -2px;
   height: 0.5px;
   width: 100%;
-  background: currentColor;
+  background: #282828;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform .3s ease;
