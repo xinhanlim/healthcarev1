@@ -15,7 +15,7 @@ export default function MenuBtn() {
             aria-expanded={open}
             aria-controls="menu"
             onClick={handleClick}
-            className="group relative z-10 overflow-clipping flex items-center justify-center btn-color md:hidden "
+            className="group relative z-10 overflow-hidden flex items-center justify-center btn-color md:hidden "
         >
             <span className="absolute z-0 h-full w-full translate-y-20 rounded-t-[10rem] btn-colorhover transition-all duration-300 ease-expo group-hover:translate-y-0 group-hover:rounded-t-none"/>
 
