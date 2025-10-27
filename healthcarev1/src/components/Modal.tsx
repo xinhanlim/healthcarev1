@@ -22,7 +22,7 @@ export default function Modal() {
             position={[0, 1, -4]}
             scale={4}
         >
-            <primitive object={scene} rotation={[0, Math.PI / 1, 0]} />
+            <primitive object={scene} rotation={[0, Math.PI / 1.12, 0]} />
         </Float>
 
         // <group ref={groupRef} position={[0, 1.5, -3]} scale={6}>

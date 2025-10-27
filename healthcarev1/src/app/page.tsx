@@ -5,6 +5,9 @@ export default function Homepage(){
     <main>
     <HeroSection/>
      <HeroSection/>
+     <HeroSection/>
+     <HeroSection/>
+     <HeroSection/>
     </main>
   )
 }

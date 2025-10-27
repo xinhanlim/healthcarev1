@@ -7,11 +7,11 @@ export default function Grainy() {
                 <filter id="grainy">
                     <feTurbulence
                         type="turbulence"
-                        baseFrequency="1.2"
+                        baseFrequency="1.6"
                         stitchTiles="stitch"
                         >
                     </feTurbulence>
-                    <feColorMatrix type="saturate" values="0"></feColorMatrix>
+                    <feColorMatrix type="saturate" values="1"></feColorMatrix>
 
                 </filter>
 
