@@ -15,7 +15,7 @@ export default function ScrollSVG({
                 document.documentElement.scrollHeight - window.innerHeight;
 
             const progress = scrollTop / docHeight; 
-            const rotation = progress * 45; 
+            const rotation = progress * 80; 
 
             if (svgRef.current) {
                 svgRef.current.style.transform = `rotate(${rotation}deg)`;
@@ -32,7 +32,7 @@ export default function ScrollSVG({
         <div className="w-full h-full flex items-end justify-end sm:justify-start ">
             <svg
                 ref={svgRef}
-                className=" z-20 w-15 h-15 transition-transform duration-300 ease"
+                className=" z-20 w-15 h-15 transition-transform duration-500 ease"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24">
                 <path fill={style} d="M17 15.586 6.707 5.293 5.293 6.707 15.586 17H7v2h12V7h-2v8.586z" />
