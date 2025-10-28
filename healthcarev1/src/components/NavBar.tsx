@@ -33,7 +33,7 @@ export default function Navbar() {
 
         <header className={`fixed w-full w-full z-[999] bg-color transition-all duration-500 ease-in-out ${showNav ? 'translate-y-0' : '-translate-y-full'}`} >
             <nav className="flex items-center justify-between px-6 sm:px-[5%] sm:py-8 3xl:py-[4%] py-5 ">
-                <Link href="/" className="z-40 leading-none text-h1 lg:text-h2 tracking-tighter ">MechTech V1</Link>
+                <Link href="#home" className="z-40 leading-none text-h1 lg:text-h2 tracking-tighter ">MechTech V1</Link>
                 <ul className="hidden text-sm md:flex font-medium lg:text-base gap-x-4 uppercase items-center">
                     <li className="inline-block w-fit px-4 py-2 ">
                         <Link href='#about' className="link-underline">About</Link>

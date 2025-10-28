@@ -9,7 +9,7 @@ import { easeIn, motion } from 'framer-motion'
 
 export default function HeroSection() {
     return (
-        <section className="h-svh w-full flex flex-col justify-between sm:pb-4 sm:px-[5%] px-6 pt-24 ">
+        <section id="home" className="h-svh w-full flex flex-col justify-between sm:pb-4 sm:px-[5%] px-6 pt-24 ">
 
             <motion.div
                 className="z-20"
