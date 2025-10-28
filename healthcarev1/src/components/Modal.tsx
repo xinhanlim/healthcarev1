@@ -13,18 +13,13 @@ export default function Modal() {
     const groupRef = useRef<THREE.Group>(null!);
     const [scrollY, setScrollY] = useState(0);
 
-    // Track scroll position
     useEffect(() => {
         const handleScroll = () => {
             setScrollY(window.scrollY);
         };
 
-        // Add scroll listener
         window.addEventListener('scroll', handleScroll, { passive: true });
-        
-        // Initial call
         handleScroll();
-        
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
