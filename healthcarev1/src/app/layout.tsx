@@ -3,6 +3,7 @@ import {  DM_Sans } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Grainy from "@/components/GrainyTexture";
+import LenisSmoothScroll from "@/components/LenisScroll";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -21,10 +22,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${dmSans.variable}  antialiased`}
-      >
+      > 
+      <LenisSmoothScroll/>
         <NavBar/>
         <Grainy/>
         {children}
