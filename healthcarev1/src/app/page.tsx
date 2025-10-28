@@ -1,14 +1,15 @@
 import HeroSection from '../sections/HeroSection'
-import About from '../sections/AboutSection'
+import AboutSection from '../sections/AboutSection'
+import TeamSection from '@/sections/TeamSection'
 
 export default function Homepage(){
   return (
     <main>
     <HeroSection/>
-    <About/>
+    <AboutSection/>
+    <TeamSection/>
     <HeroSection/>
-    <HeroSection/>
-    <HeroSection/>
+  
     </main>
   )
 }

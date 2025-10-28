@@ -36,7 +36,10 @@ export default function Navbar() {
                 <Link href="/" className="z-40 leading-none text-h1 lg:text-h2 tracking-tighter ">MechTech V1</Link>
                 <ul className="hidden text-sm md:flex font-medium lg:text-base gap-x-4 uppercase items-center">
                     <li className="inline-block w-fit px-4 py-2 ">
-                        <Link href='/' className="link-underline">About</Link>
+                        <Link href='#about' className="link-underline">About</Link>
+                    </li>
+                    <li className="inline-block w-fit px-4 py-2 ">
+                        <Link href='#team' className="link-underline">Team</Link>
                     </li>
                     <li className="inline-block w-fit px-4 py-2 ">
                         <Link href='/' className="link-underline">Product</Link>

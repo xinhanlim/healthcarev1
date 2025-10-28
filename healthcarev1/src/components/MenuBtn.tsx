@@ -20,19 +20,25 @@ export default function MenuBtn() {
                 <div>
                     <div className="flex flex-row justify-between items-center border-b-1 py-4 opacity-90">
                         <li className="inline-block w-fit py-2 ">
-                            <Link href='/' className="">About</Link>
+                            <Link href='#about' onClick={handleClick}>About</Link>
                         </li>
                         <ArrowSVG />
                     </div>
                     <div className=" flex flex-row justify-between items-center border-b-1 py-4 opacity-90">
                         <li className="inline-block w-fit py-2 border-bottom-1 outline-offset-2">
-                            <Link href='/' className="">Product</Link>
+                            <Link href='/' onClick={handleClick}>Team</Link>
                         </li>
                         <ArrowSVG />
                     </div>
                     <div className=" flex flex-row justify-between items-center border-b-1 py-4 opacity-90">
                         <li className="inline-block w-fit py-2 border-bottom-1 outline-offset-2">
-                            <Link href='/' className="">News</Link>
+                            <Link href='/' onClick={handleClick}>Product</Link>
+                        </li>
+                        <ArrowSVG />
+                    </div>
+                    <div className=" flex flex-row justify-between items-center border-b-1 py-4 opacity-90">
+                        <li className="inline-block w-fit py-2 border-bottom-1 outline-offset-2">
+                            <Link href='/' onClick={handleClick}>News</Link>
                         </li>
                         <ArrowSVG />
                     </div>
