@@ -33,7 +33,7 @@ export default function Modal2() {
                 <Float
                     speed={4}
                     rotationIntensity={0}
-                    floatIntensity={0.6}
+                    floatIntensity={1}
                 >
                     <primitive object={nodes.Torus001} />
                 </Float>
@@ -43,7 +43,7 @@ export default function Modal2() {
                 <Float
                     speed={4}
                     rotationIntensity={0}
-                    floatIntensity={0.5}
+                    floatIntensity={1}
                 >
                     <primitive object={nodes.Sphere} />
                 </Float>
@@ -52,7 +52,7 @@ export default function Modal2() {
                 <Float
                     speed={4}
                     rotationIntensity={0}
-                    floatIntensity={0.5}
+                    floatIntensity={1}
                 >
                     <primitive object={nodes.Cylinder} />
                 </Float>
