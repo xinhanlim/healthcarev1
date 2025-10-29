@@ -16,7 +16,7 @@ export default function AboutSection() {
                         title='Story'>
                         <p>It began with the "Chronos Anomaly" - a temporal energy surge that scattered fragments of ancient wisdom across our timeline. Our research team discovered these fragments contained blueprints for technology that harmonized organic and mechanical systems.
 
-                            Dr. Aris Thorne, our founder, had a vision during the anomaly: "I saw a world where machines breathed with the rhythm of nature, where steel had a heartbeat, and where every technological advancement left the earth greener than it found it.</p>
+                            Dr. Jennis, our founder, had a vision during the anomaly: "I saw a world where machines breathed with the rhythm of nature, where steel had a heartbeat, and where every technological advancement left the earth greener than it found it.</p>
                     </DropDown>
                     <DropDown
                         title='Vision'>

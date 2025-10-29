@@ -27,14 +27,14 @@ export default function TeamSection() {
                     <img src="members/1.jpg" alt="member" className="border-3 border-[#282828]/70" />
                     <div className="pb-4 uppercase">
                         <h1 className="text-h2 leading-none tracking-tighter">Jennis</h1>
-                        <h1 className="text-small pt-2 leading-none tracking-tighter section-header">CEO of Mech Tech </h1>
+                        <h1 className="text-small pt-2 leading-none tracking-tighter section-header">Founder of Mech Tech </h1>
                     </div>
                 </div>
                 <div className="flex flex-col gap-y-4">
                     <img src="members/2.jpg" alt="member" className="border-3 border-[#282828]/70" />
                     <div className="pb-4 uppercase">
                         <h1 className="text-h2 leading-none tracking-tighter">DR Jennifer</h1>
-                        <h1 className="text-small pt-2 leading-none tracking-tighter section-header">Deputy Manager of Mech Tech</h1>
+                        <h1 className="text-small pt-2 leading-none tracking-tighter section-header">Doctor</h1>
                     </div>
                 </div>
                 <div className="flex flex-col gap-y-4">
