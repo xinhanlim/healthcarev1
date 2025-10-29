@@ -18,7 +18,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.8 , ease:easeIn }}
                 viewport={{ once: true }}
 
-            ><h1 className=" sm:mix-blend-normal sm:text-[#282828] text-h4 sm:text-h6 py-1 sm:py-10 leading-none tracking-tighter sm:max-w-[80vh]">Engineering Precision in Every Breath</h1>
+            ><h1 className="text-h4 sm:text-h6 py-1 sm:py-10 leading-none tracking-tighter sm:max-w-[80vh]">Engineering Precision in Every Breath</h1>
             </motion.div>
                 <SceneClient />
             <motion.div initial={{ opacity: 0, y: -50 }}

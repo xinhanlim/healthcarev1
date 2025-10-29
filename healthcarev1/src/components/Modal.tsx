@@ -23,7 +23,7 @@ export default function Modal() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    useFrame((state, delta) => {
+    useFrame(() => {
         if (groupRef.current) {
             // Calculate scroll progress (0 to 1)
             const maxScroll = Math.max(document.body.scrollHeight - window.innerHeight, 1);
