@@ -45,7 +45,7 @@ export default function Navbar() {
                         <Link href='#product' className="link-underline">Product</Link>
                     </li>
                     <li className="inline-block w-fit px-4 py-2 ">
-                        <Link href='/' className="link-underline">News</Link>
+                        <Link href='#news' className="link-underline">News</Link>
                     </li>
                     <li className="inline-block w-fit px-4 py-2 ">
                         <div className="flex gap-x-2">
