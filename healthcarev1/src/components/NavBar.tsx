@@ -42,7 +42,7 @@ export default function Navbar() {
                         <Link href='#team' className="link-underline">Team</Link>
                     </li>
                     <li className="inline-block w-fit px-4 py-2 ">
-                        <Link href='/' className="link-underline">Product</Link>
+                        <Link href='#product' className="link-underline">Product</Link>
                     </li>
                     <li className="inline-block w-fit px-4 py-2 ">
                         <Link href='/' className="link-underline">News</Link>
