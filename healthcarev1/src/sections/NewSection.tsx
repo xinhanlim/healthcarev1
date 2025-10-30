@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 
 export default function NewSection(){
     return (
-    <section id="news" className="relative z-50 bg-[#fefefe]">
+    <section id="news" className="relative z-50 body-cover">
         <div className="">
             <SliderImg/>
         </div>
