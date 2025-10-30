@@ -1,10 +1,11 @@
 'use client'
 import Products from "@/components/Products";
 import {motion } from 'framer-motion';
+import HeroSection from "./HeroSection";
 
 export default function ProductionSection(){
 return(
-    <section id="product" className="sm:sticky sm:top-0 z-20 h-full w-full flex flex-col sm:px-[5%] px-6 sm:pt-12 ">
+    <section id="product" className="sm:sticky sm:top-0 z-50 h-full w-full flex flex-col sm:px-[5%] px-6 sm:pt-12 ">
         <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -25,5 +26,6 @@ return(
             title = "VitaFlow CPAP"/>
         </div>
     </section>
+
 )
 }
