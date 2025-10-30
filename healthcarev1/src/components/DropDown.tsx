@@ -21,7 +21,7 @@ export default function DropDown({ title, children }: DropDownProps) {
                 className="w-full"
             >
                 <div className="flex flex-row justify-between items-center border-b">
-                    <div className=" z-20 py-6 text-h4 leading-none tracking-tighter uppercase ">{title}</div>
+                    <div className=" z-20 py-6 text-h3 sm:text-h4  leading-none tracking-tighter uppercase ">{title}</div>
                     <div className="text-2xl transition-all duration-300">
                         {open ? '-' : '+'}
                     </div>
@@ -29,7 +29,7 @@ export default function DropDown({ title, children }: DropDownProps) {
             </button>
 
             <div className={`transition-all duration-600 ease-in-out overflow-hidden ${open ? 'max-h-96 opacity-100 ' : 'max-h-0 opacity-0'}`}>
-                <div className="py-8 text-small  tracking-tighter ">
+                <div className="py-8 text-small tracking-tighter ">
                     {children}
                 </div>
             </div>

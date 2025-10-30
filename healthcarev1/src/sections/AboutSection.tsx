@@ -8,35 +8,28 @@ export default function AboutSection() {
                 <div className="flex flex-col gap-y-5 min-w-[50%] py-5 relative">
                     <div className="flex flex-col py-2">
                         <h1 className=" z-20 text-h1 leading-none tracking-tighter section-header ">// About</h1>
-                        <h1 className=" z-20 text-h4 sm:text-h7 sm:max-w-[50%] leading-none tracking-tighter uppercase ">Story of Us</h1>
+                        <h1 className=" z-20 text-h4 pt-4 sm:text-h6 sm:max-w-[50%] leading-none tracking-tighter  "></h1>
                     </div>
                 </div>
                 <div className="pt-12 ">
                     <DropDown
                         title='Story'>
-                        <p>It began with the "Chronos Anomaly" - a temporal energy surge that scattered fragments of ancient wisdom across our timeline. Our research team discovered these fragments contained blueprints for technology that harmonized organic and mechanical systems.
-
-                            Dr. Jennis, our founder, had a vision during the anomaly: "I saw a world where machines breathed with the rhythm of nature, where steel had a heartbeat, and where every technological advancement left the earth greener than it found it.</p>
+                        <p>Our Founder, Jennis never set out to start a medical technology company. She was just a engineer who watched her grandmother struggle to breathe. Frustrated by the clunky, impersonal respiratory devices available, she saw firsthand how existing technology failed the very people it was meant to help. The devices were functional, but they weren't human</p>
                     </DropDown>
                     <DropDown
                         title='Vision'>
-                        <p> To bridge humanity's past with its future, creating symbiotic technology that remembers its purpose is to serve, not dominate.</p>
+                        <p>Born from the memory of a life lost, our vision is a future where families are kept whole, and a breath is never a goodbye</p>
                     </DropDown>
                     <DropDown
                         title='Values'>
-                        <p>Symbiotic Innovation. Temporal Stewardship. Human-Centric Design. Silent Strength</p>
+                        <p>Precision with Purpose.&nbsp; Empathy in Action. &nbsp;Courageous Innovation.&nbsp; Lifelong Partnership</p>
                     </DropDown>
                     <DropDown
                         title='Actions'>
-                        <p>"We Build Remembering"
-
-                            We remember that every circuit should have a purpose beyond profit.
-                            We remember that strength is measured by what we protect, not what we destroy.
-                            We remember that the future belongs to those who build bridges, not walls.
-
-                            Our mechs don't stomp - they glide.
-                            They don't consume - they generate.
-                            They don't replace humans - they extend human potential.</p>
+                        <p>Building affordable, smart devices that predict and prevent breathing crises before they happen.
+                            Developing digital tools that empower individuals to better understand and manage their respiratory health.
+                            Working directly with healthcare providers to implement our technology and gather real-world feedback for improvement.
+                        </p>
                     </DropDown>
                 </div>
             </div>
