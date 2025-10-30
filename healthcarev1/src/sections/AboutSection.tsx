@@ -8,7 +8,7 @@ export default function AboutSection() {
                 <div className="flex flex-col gap-y-5 min-w-[50%] py-5 relative">
                     <div className="flex flex-col py-2">
                         <h1 className=" z-20 text-h1 leading-none tracking-tighter section-header ">// About</h1>
-                        <h1 className=" z-20 text-h4 pt-4 sm:text-h6 sm:max-w-[50%] leading-none tracking-tighter  "></h1>
+                        <h1 className=" z-20 text-h4 pt-4 sm:text-h6 sm:max-w-[50%] leading-none tracking-tighter">Motivations that drives us today</h1>
                     </div>
                 </div>
                 <div className="pt-12 ">

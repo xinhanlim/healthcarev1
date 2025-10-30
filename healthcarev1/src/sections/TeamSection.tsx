@@ -9,7 +9,7 @@ const Scene = dynamic(() => import('@/components/Scene2'))
 export default function TeamSection() {
 
     return (
-        <section id="team" className="h-full relative w-full ">
+        <section id="team" className="h-full relative w-full pb-24">
             <div className="h-svh relative w-full" >
                 <Scene />
                 <div className="absolute w-full h-full inset-0 flex flex-col justify-center items-center ">
