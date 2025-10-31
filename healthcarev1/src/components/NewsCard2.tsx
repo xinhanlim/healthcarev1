@@ -20,7 +20,7 @@ export default function NewsCard({ title, description }: NewsCardProps) {
                             <span className="px-3 py-2 news-btncolor"> Product Showcase</span>
                             <span className="px-3 py-2 news-btncolor"> Aug 19, 2024</span>
                         </div>
-                        <div className="flex jsutify-center items-center">
+                        <div className="flex justify-center items-center">
                             <ArrowSVG />
                         </div>
                     </div>

@@ -41,7 +41,7 @@ export default function NewSection() {
                          a groundbreaking device designed to tackle the critical issue of incorrect inhaler technique,
                          a problem affecting the majority of the over 300,000 asthma and COPD patients in Singapore. Unlike add-on devices..."
                     />
-                    <div className="sm:col-span-2">
+                    <div className="col-span-1 sm:col-span-2">
                     <NewsCard3 
                     title="Singapore Medtech Startup Launches 'AuraSense' Smart Inhaler, Transforming Asthma and COPD Management with Real-Time Coaching"
                     description="AuraFlow Robotics today announced the commercial launch and Health Sciences Authority (HSA) approval of the AuraSense Smart Inhaler,
