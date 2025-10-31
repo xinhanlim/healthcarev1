@@ -120,5 +120,7 @@ body:after {
   background-color: #a4d6e9;
 }
 
-
+.news-btncolor{
+  background-color:  var(--background);
+}
 
