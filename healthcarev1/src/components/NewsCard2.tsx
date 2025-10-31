@@ -25,7 +25,9 @@ export default function NewsCard({ title, description }: NewsCardProps) {
                         </div>
                     </div>
                 </div>
-                <img src='https://placehold.co/800x400' alt="image of headlines" className="py-8" />
+                <div className="overflow-hidden w-full h-full">
+                    <img src='https://placehold.co/900x400' alt="image of headlines" className="transition-all duration-1000 group-hover:scale-110 overflow-hidden"/>
+                </div>
 
 
             </div>

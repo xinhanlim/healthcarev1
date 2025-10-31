@@ -10,7 +10,9 @@ export default function NewsCard({ title, description }: NewsCardProps) {
     return (
         <div className=" group h-full w-full pt-4">
             <div className="flex flex-col gap-y-9">
-                <img src='https://placehold.co/800x400' alt="image of headlines" />
+               <div className="overflow-hidden w-full h-full">
+                    <img src='https://placehold.co/900x400' alt="image of headlines" className="transition-all duration-1000 group-hover:scale-110 overflow-hidden"/>
+                </div>
                 <div className="sm:max-w-[80%] flex flex-col gap-8 pb-8">
                     <h1 className="text-h1 sm:text-h3 leading-none tracking-tighter">{title}</h1>
                     <h1 className="text-base tracking-tighter">{description}</h1>
