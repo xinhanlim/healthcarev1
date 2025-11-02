@@ -3,15 +3,16 @@ import ArrowSVG from "./ArrowSVG"
 type NewsCardProps = {
     title: string,
     description: string,
+    image: string
 }
 
 
-export default function NewsCard({ title, description }: NewsCardProps) {
+export default function NewsCard({ title, description, image }: NewsCardProps) {
     return (
         <div className="group h-full w-full py-10 border-t">
             <div className="flex flex-col 2xl:flex-row gap-y-9 gap-10 justify-between">
                 <div className="overflow-hidden w-full h-full">
-                    <img src='https://placehold.co/900x400' alt="image of headlines" className="transition-all duration-1000 group-hover:scale-110 overflow-hidden"/>
+                    <img src={image} alt="image of headlines" className="transition-all duration-1000 grayscale group-hover:grayscale-0 group-hover:scale-110 overflow-hidden"/>
                 </div>
                 <div className="flex flex-col justify-between gap-8">
                     <div className="flex flex-col gap-8">
