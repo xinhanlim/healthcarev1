@@ -69,7 +69,7 @@ export default function NewSection() {
                     transition={{ duration: 0.8 }}>
                     <h1 className="text-h4 sm:text-h6 pt-4 pb-8 leading-none tracking-tighter">Our Strategic Partners</h1>
                 </motion.div>
-                <div className=" grid sm:grid-cols-4 grid-cols-2 gap-6 pb-8 pt-8">
+                <div className=" grid sm:grid-cols-4 grid-cols-2 gap-6 pb-16 sm:pt-16">
                     <PartnersCard
                         image="partners/nus.png" />
                     <PartnersCard

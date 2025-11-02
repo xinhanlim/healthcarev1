@@ -20,14 +20,15 @@ const duplicatedText = [...text, ...text]
 return (
     <div className="flex overflow-hidden justify py-10 bg-[#282828]">
         <motion.div
-            className="flex"
+            className="flex gap-x-10"
             animate={{
-                x: [0, -100 * text.length]
+                x: ['-50%', 0]
             }}
             transition={{
-                duration: 10,
-                repeat: Infinity,
-                ease: "linear",
+                duration: 19,
+                    repeat: Infinity,
+                    ease: "linear",
+                    repeatType: "loop"
             }}
         >
             {duplicatedText.map((item, index) => (
