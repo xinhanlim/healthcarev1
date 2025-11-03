@@ -15,7 +15,7 @@ export default function MenuBtn() {
     const handleClick = () => setOpen((prev) => !prev);
 
     const mobileMenuContent = (
-        <div className={`md:hidden fixed bottom-0 left-0 w-screen h-screen btn-color z-30 transition-transform ease duration-600 ${open ? 'translate-y-0' : 'translate-y-full'}`}>
+        <div className={`md:hidden fixed bottom-0 left-0 w-screen h-screen btn-color z-60 pt-18 transition-transform ease duration-600 ${open ? 'translate-y-0' : 'translate-y-full'}`}>
             <ul className="flex flex-col px-[6%] w-full text-h2 min-h-screen font-medium lg:text-base gap-x-10 gap-y-6 uppercase justify-end ">
                 <div>
                     <div className="flex flex-row justify-between items-center border-b-1 py-4 opacity-90">

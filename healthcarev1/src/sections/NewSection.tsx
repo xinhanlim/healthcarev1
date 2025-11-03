@@ -84,9 +84,6 @@ export default function NewSection() {
                         image="partners/esg.png" />
                 </div>
             </div>
-
-            <SliderImgReverse />
-
         </section >
     )
 }
