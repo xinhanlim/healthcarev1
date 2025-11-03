@@ -13,7 +13,7 @@ export default function ProductionSection() {
                 transition={{ duration: 0.8 }}
                 className="border-b border-[#282828]/50 ">
                 <h1 className="text-h1 leading-none tracking-tighter section-header">
-                    <span aria-hidden="true">{'//'}</span> Team
+                    <span aria-hidden="true">{'//'}</span> Product
                 </h1>
                 <h1 className="text-h4 pt-4 pb-20 sm:text-h6 sm:max-w-[50%] leading-none tracking-tighter  ">Supporting Patients, Enabling Physicians</h1>
             </motion.div>
