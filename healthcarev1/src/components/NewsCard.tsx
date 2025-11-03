@@ -12,7 +12,7 @@ export default function NewsCard({ title, description, image }: NewsCardProps) {
         <div className=" group h-full w-full pt-4">
             <div className="flex flex-col gap-y-9">
                <div className="overflow-hidden w-full h-full">
-                    <img src={image} alt="image of headlines" className="transition-all duration-1000 grayscale group-hover:grayscale-0 group-hover:scale-110 overflow-hidden"/>
+                    <img src={image} alt="image of headlines" className="transition-all duration-1000 grayscale sm:grayscale-0 group-hover:grayscale-0 group-hover:scale-110 overflow-hidden"/>
                 </div>
                 <div className="sm:max-w-[80%] flex flex-col gap-8 pb-8">
                     <h1 className="text-h1 sm:text-h3 leading-none tracking-tighter">{title}</h1>

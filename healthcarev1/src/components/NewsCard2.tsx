@@ -27,7 +27,7 @@ export default function NewsCard({ title, description, image }: NewsCardProps) {
                     </div>
                 </div>
                 <div className="overflow-hidden w-full h-full pt-8 sm:pt-0">
-                    <img src={image} alt="image of headlines" className="transition-all duration-1000 grayscale group-hover:grayscale-0 group-hover:scale-110 overflow-hidden"/>
+                    <img src={image} alt="image of headlines" className="transition-all duration-1000 grayscale sm:grayscale-0 group-hover:grayscale-0 group-hover:scale-110 overflow-hidden"/>
                 </div>
 
 
