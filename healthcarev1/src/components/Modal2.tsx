@@ -2,14 +2,12 @@
 
 import { Float, useGLTF } from "@react-three/drei"
 import React, { useEffect, useState, useRef } from 'react'
-import { useThree, useFrame } from '@react-three/fiber'
-import * as THREE from 'three'
+import { useThree} from '@react-three/fiber'
 
 export default function Modal2() {
     const { nodes } = useGLTF('modal2.glb');
     const { viewport } = useThree();
-    const [scrollY, setScrollY] = useState(0);
-    const groupRef = useRef<THREE.Group>(null!);
+    const [_, setScrollY] = useState(0);
 
     useEffect(() => {
         const handleScroll = () => {

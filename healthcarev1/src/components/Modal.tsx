@@ -25,14 +25,12 @@ export default function Modal() {
 
     useFrame(() => {
         if (groupRef.current) {
-            // Calculate scroll progress (0 to 1)
+
             const maxScroll = Math.max(document.body.scrollHeight - window.innerHeight, 1);
             const scrollProgress = Math.min(scrollY / maxScroll, 1);
             
-            // Rotate downward (0 to -75 degrees)
             const targetRotationX = -scrollProgress * (Math.PI * -1); // ~75 degrees
             
-            // Smooth rotation
             groupRef.current.rotation.x = THREE.MathUtils.lerp(
                 groupRef.current.rotation.x, 
                 targetRotationX, 
@@ -51,8 +49,5 @@ export default function Modal() {
                 <primitive object={scene} rotation={[0, Math.PI / 1.12, 0]} />
             </Float>
         </group>
-        // <group ref={groupRef} position={[0, 1.5, -3]} scale={6}>
-        //     <primitive object={scene} />
-        // </group>
     )
 }

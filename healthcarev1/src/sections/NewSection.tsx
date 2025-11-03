@@ -3,7 +3,6 @@ import NewsCard from '@/components/NewsCard'
 import NewsCard2 from '@/components/NewsCard2'
 import NewsCard3 from '@/components/NewsCard3'
 import PartnersCard from '@/components/PartnersCard'
-import SliderImgReverse from '@/components/SliderImgReverseColor'
 
 import SliderImg from '@/components/SliderImg'
 import { motion } from 'framer-motion'

@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import ArrowSVG2 from './ArrowSVG2'
 
 export default function ProductButton(){
