@@ -1,7 +1,7 @@
 'use client'
 import Products from "@/components/Products";
 import {motion } from 'framer-motion';
-import HeroSection from "./HeroSection";
+
 
 export default function ProductionSection(){
 return(

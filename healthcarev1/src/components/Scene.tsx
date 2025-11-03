@@ -1,9 +1,9 @@
 'use client'
 
-import { Canvas } from "@react-three/fiber"
-import { Suspense, useState } from "react"
-import Modal from "./Modal"
-import { useProgress, Html } from '@react-three/drei'
+import { Canvas } from "@react-three/fiber";
+import { Suspense  } from "react";
+import Modal from "./Modal";
+import { useProgress, Html } from '@react-three/drei';
 
 
 function Loader() {
