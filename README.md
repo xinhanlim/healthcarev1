@@ -50,12 +50,12 @@ npm run dev
 # ScreenShot 
 ![Project Screenshot](./healthcarev1/public/screenshot/Hero.png)
 ![Project Screenshot](./healthcarev1/public/screenshot/performance.png)
-![Project Screenshot](./healthcarev1/public/screenshot/performance2.png)
+![Project Screenshot](./healthcarev1/public/screenshot/peformance2.png)
 
 
-# Next Learning Step
-- What can i do to increase the performance rating and will it affect the aesthetic of it.
-- what are the factors that affecting the performance
+# Question that i asked myself
+- What can i do to increase the performance rating and will it affect the aesthetic of it?
+- what are the factors that affecting the performance?
 
 
 
