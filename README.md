@@ -41,6 +41,6 @@ npm run dev
 - Then open http://localhost:3000 and watch my progress!
 
 # ScreenShot 
-![Project Screenshot](healthcarev1/screenshot/hero.png)
+![Project Screenshot](./healthcarev1/public/screenshot/Hero.png)
 
 
