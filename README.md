@@ -40,15 +40,25 @@ npm run dev
 ```
 - Then open http://localhost:3000 and watch my progress!
 
-# ScreenShot 
-![Project Screenshot](./healthcarev1/public/screenshot/Hero.png)
-
-
 # Resources Helping Me Learn
 - 3D Animations => [Youtube- @olivierlarose1](https://www.youtube.com/@olivierlarose1) 
 - Blender => [Youtube-Blender Basic Tutorial](https://www.youtube.com/watch?v=4haAdmHqGOw&t=2190s)
 - Next.js + Typescript => [Udemy](https://www.udemy.com/share/101uUA3@HiaGsJ6bM8Qr6cOKksgfJxSS4bcNjuY4Fo_UjGHM7UnY7QGc1T-0-dCnLWKLxxeBTg==/)
 - Framer-Motion Docs => [Framer-Motion](https://motion.dev/docs/framer)
+
+
+# ScreenShot 
+![Project Screenshot](./healthcarev1/public/screenshot/Hero.png)
+![Project Screenshot](./healthcarev1/public/screenshot/performance.png)
+![Project Screenshot](./healthcarev1/public/screenshot/performance2.png)
+
+
+# Next Learning Step
+- What can i do to increase the performance rating and will it affect the aesthetic of it.
+- what are the factors that affecting the performance
+
+
+
 
 
 
