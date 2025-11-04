@@ -1,4 +1,4 @@
-# Mech Tech V1 - For Front End Development
+# Mech Tech V1 - For Front End Development (EDUCATIONAL PURPOSE)
 Mech Tech V1 is created with Next.js with Typescript including the some other helpers that i will list down in the tech-stack below.
 It's mainly build to actually to increase the SEO for easier appearance in the search engine and having a story-flow while user scroll through the page.
 It's a Single Landing Page Application with different section bundled in one 
