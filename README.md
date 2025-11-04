@@ -44,3 +44,9 @@ npm run dev
 ![Project Screenshot](./healthcarev1/public/screenshot/Hero.png)
 
 
+# Resources Helping Me Learn
+- 3D Animations => [Youtube](https://www.youtube.com/@olivierlarose1) 
+- Blender => [Youtube](https://www.youtube.com/watch?v=4haAdmHqGOw&t=2190s)
+
+
+
