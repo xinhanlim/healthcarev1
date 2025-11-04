@@ -3,6 +3,8 @@ Mech Tech V1 is created with Next.js with Typescript including the some other he
 It's mainly build to actually to increase the SEO for easier appearance in the search engine and having a story-flow while user scroll through the page.
 It's a Single Landing Page Application with different section bundled in one 
 
+[Live-Demo](https://healthcarev1.vercel.app/)
+
 
 # Main Goals:
 - Next.js - Understanding App Router, Server Components, and all the new features
@@ -26,7 +28,7 @@ It's a Single Landing Page Application with different section bundled in one
 - Three.js 
 - Lenis 
 
-# How to Start Up
+# Getting Started
 ```js
 1. Clone Repo
 - git clone https://github.com/xinhanlim/healthcarev1
@@ -56,6 +58,10 @@ npm run dev
 # Question that i asked myself
 - What can i do to increase the performance rating and will it affect the aesthetic of it?
 - what are the factors that affecting the performance?
+
+# Done-by
+**Lim Xin Han** – [Portfolio](https://xinhanlim.vercel.app)
+
 
 
 
