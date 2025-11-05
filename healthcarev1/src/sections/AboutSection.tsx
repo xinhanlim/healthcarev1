@@ -3,7 +3,7 @@ import DropDown from "@/components/DropDown";
 export default function AboutSection() {
   return (
     <section id="about" className="z-40">
-      <div className="h-full min-h-[100vh] w-full flex flex-col sm:px-[5%] px-6 pt-12 pb-24 md:flex-row">
+      <div className="relative h-full min-h-[100vh] w-full flex flex-col sm:px-[5%] px-6 pt-12 pb-24 md:flex-row">
         <div className="flex flex-col gap-y-5 min-w-[50%] py-5 relative">
           <div className="flex flex-col py-2">
             <h1 className="z-40 text-h1 leading-none tracking-tighter section-header">
