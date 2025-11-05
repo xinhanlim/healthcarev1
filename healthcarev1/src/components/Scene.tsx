@@ -23,7 +23,7 @@ export default function Scene() {
     return (
         
         
-        <div className="absolute inset-0 ">
+        <div className="absolute inset-0 h-svh">
             <Canvas gl={{ alpha: true, antialias: true }} style={{ background: "transparent" }}>
                 <ambientLight intensity={0.8} />
                 <directionalLight position={[0, 4, 5]} intensity={1.2} color="#ffffff" />
