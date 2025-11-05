@@ -28,7 +28,7 @@ export default function HeroSection() {
                 viewport={{ once: true }} className="z-20 mix-blend-normal flex sm:flex-row flex-row-reverse justify-between w-full pb-10">
                 <ScrollSVG />
                 <div className="flex flex-col justify-between max-w-[70%]">
-                    <h1 className=" pb-6 text-h1 sm:text-h2 md:text-h2 xl:text-h3 py-1 sm:py-10 leading-none tracking-tighter sm:max-w-[90vh]">Trusted respiratory technology for hospitals, clinics, and care providers worldwide.</h1>
+                    <h1 className=" pb-6 text-h1 sm:text-h2 md:text-h2 2xl:text-h5 py-1 sm:py-10 leading-none tracking-tighter sm:max-w-[90vh]">Trusted respiratory technology for hospitals, clinics, and care providers worldwide.</h1>
                     <NavBtn />
                 </div>
             </motion.div>
